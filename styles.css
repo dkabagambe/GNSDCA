@@ -62,12 +62,15 @@ ul li a {
   color: #fff;
   display: block;
   font-size: 16px;
-  transition: 0.3s linear;
+  text-transform: uppercase;
   text-decoration: none !important;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom-color 0.3s;
 }
 ul li a:hover {
   color: blue;
   transition: 0.3s ease;
+  border-bottom-color: green;
 }
 
 .header-hamburger-icon {
