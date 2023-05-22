@@ -243,3 +243,66 @@ styling for the home page starts from here */
     height: 300px; /* Adjusted height for mobile devices */
   }
 }
+/* styles for the slider ends here */
+#about {
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#about h1 {
+  color: #222;
+  margin-bottom: 20px;
+}
+
+#about h2 {
+  color: #111;
+  margin-bottom: 10px;
+}
+
+#about p {
+  margin-bottom: 10px;
+  font-size: 22px;
+  font-family: garamond;
+}
+
+#about ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  font-family: garamond;
+  font-weight: 300;
+}
+
+#about li {
+  margin-bottom: 5px;
+  padding-left: 20px;
+  position: relative;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+#about li:before {
+  content: "\2022";
+  position: absolute;
+  left: 0;
+  color: #000;
+}
+
+#about .content {
+  margin-bottom: 20px;
+}
+
+#about .columns {
+  display: flex;
+}
+
+#about .column {
+  flex: 1;
+  margin-right: 20px;
+}
+
+#about .column:last-child {
+  margin-right: 0;
+}
