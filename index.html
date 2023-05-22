@@ -10,6 +10,10 @@
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Global North and South Dialogue on Climate Action</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
 
     <link rel="stylesheet" href="styles.css" />
     <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png" />
@@ -91,6 +95,44 @@
     </header>
 
     <!--end of header-->
+    <!-- the home section starts here -->
+    <section class="home">
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="images/IMG_3056.jpg" alt="Slide 1" />
+            <div class="slide-caption">
+              <h3>GNSDCA</h3>
+              <p>Global North and South Dialogue on Climate Action</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="images/IMG_3959.jpg" alt="Slide 2" />
+            <div class="slide-caption">
+              <h3>GNSDCA</h3>
+              <p>Global North and South Dialogue on Climate Action</p>
+            </div>
+          </div>
+          <!-- Add more slides here -->
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+      <!-- Rest of the content -->
+    </section>
+
     <script src="script.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".swiper-container", {
+        loop: true,
+        autoplay: {
+          delay: 3000, // Autoplay delay in milliseconds (5000ms = 5 seconds)
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+    </script>
   </body>
 </html>
