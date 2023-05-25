@@ -117,24 +117,22 @@ ul li a:hover {
     transition: right 0.3s ease-in;
     margin: 5px;
     text-align: center;
-    /* remove the transform property */
-    /* transform: translateX(20%); */
-    z-index: 15;
-    /* add the right property */
     right: -100%;
+    z-index: 15;
   }
+
   ul li {
     margin-right: 0px;
   }
+
   ul li a {
     font-size: 12px;
     padding-top: 1rem;
     text-align: center;
     font-weight: 600;
   }
+
   .show {
-    /* remove the transform property */
-    /* transform: translateX(0%); */
     transition: right 0.3s ease-in;
     background-color: #000000;
     top: 8vh;
@@ -147,19 +145,22 @@ ul li a:hover {
     justify-content: center;
     align-items: center;
     z-index: 10;
-    /* add the right property */
     right: 0;
   }
+
   .cross .header-hamburger-line-2 {
     opacity: 0;
   }
+
   .cross .header-hamburger-line-1 {
     transform: rotate(-45deg) translate(-5px, 7px);
   }
+
   .cross .header-hamburger-line-3 {
     transform: rotate(45deg) translate(-5px, -7px);
   }
 }
+
 /* 
 styling for the home page starts from here */
 
@@ -243,66 +244,58 @@ styling for the home page starts from here */
     height: 300px; /* Adjusted height for mobile devices */
   }
 }
-/* styles for the slider ends here */
-#about {
-  padding: 20px;
-  margin-bottom: 20px;
-  border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+/* Custom CSS for About Us section */
+#aboutUs {
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+  margin-top: 10px;
 }
 
-#about h1 {
+#aboutUs .container {
+  height: 100%;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+#aboutUs .accordion-button {
+  background-color: #e9ecef;
+  color: #333;
+  font-weight: bold;
+  border: none;
+  border-radius: 0;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  text-align: left;
+  width: 100%;
+  transition: background-color 0.3s ease;
+}
+
+#aboutUs .accordion-button:focus {
+  outline: none;
+}
+
+#aboutUs .accordion-button:not(.collapsed) {
+  background-color: #dee2e6;
+}
+
+#aboutUs .accordion-body {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #dee2e6;
+}
+
+#aboutUs .accordion-body .about-title {
+  font-size: 24px;
   color: #222;
   margin-bottom: 20px;
+  margin-top: 40px;
 }
 
-#about h2 {
-  color: #111;
-  margin-bottom: 10px;
-}
-
-#about p {
-  margin-bottom: 10px;
-  font-size: 22px;
-  font-family: garamond;
-}
-
-#about ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-  font-family: garamond;
-  font-weight: 300;
-}
-
-#about li {
-  margin-bottom: 5px;
-  padding-left: 20px;
-  position: relative;
-  font-size: 20px;
-  font-weight: normal;
-}
-
-#about li:before {
-  content: "\2022";
-  position: absolute;
-  left: 0;
-  color: #000;
-}
-
-#about .content {
-  margin-bottom: 20px;
-}
-
-#about .columns {
-  display: flex;
-}
-
-#about .column {
-  flex: 1;
-  margin-right: 20px;
-}
-
-#about .column:last-child {
-  margin-right: 0;
+#aboutUs .accordion-body .about-paragraph {
+  font-size: 18px;
+  color: #333;
+  line-height: 1.5;
+  font-family: cormorant;
 }
