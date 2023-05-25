@@ -291,6 +291,8 @@ styling for the home page starts from here */
   color: #222;
   margin-bottom: 20px;
   margin-top: 40px;
+  font-family: garamond;
+  font-weight: 600;
 }
 
 #aboutUs .accordion-body .about-paragraph {
