@@ -301,3 +301,67 @@ styling for the home page starts from here */
   line-height: 1.5;
   font-family: cormorant;
 }
+/* ================upcoming events==================== */
+/* Custom CSS for Upcoming Events section */
+#upcomingEvents {
+  padding: 50px 0;
+}
+
+#upcomingEvents .section-title {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#upcomingEvents .card {
+  height: 100%;
+}
+/* ================focus area styles========== */
+#foc {
+  width: 100%;
+  height: auto;
+}
+#focus {
+  display: flex;
+  flex-wrap: wrap;
+}
+#foc h3 {
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: 600;
+  color: #000;
+  display: grid;
+  place-items: center;
+  padding: 20px 10px;
+  font-family: serif;
+}
+
+.focus-area {
+  flex-basis: 33.33%;
+  padding: 10px;
+  box-sizing: border-box;
+  display: grid;
+  place-items: center;
+  gap: 20px;
+  border: 2px solid transparent; /* Add border property with light blue color */
+  border-radius: 10px; /* Optional: Add border radius for rounded corners */
+  text-align: center;
+}
+
+.fas {
+  margin-right: 10px;
+  color: rgb(7, 171, 235);
+  font-size: 2rem;
+}
+.focus-text {
+  font-weight: 540;
+  font-size: 1.3rem;
+  padding: 20px;
+  font-family: garamond;
+}
+
+@media (max-width: 768px) {
+  .focus-area {
+    flex-basis: 100%;
+  }
+}
