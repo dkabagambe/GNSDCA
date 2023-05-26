@@ -352,11 +352,6 @@ styling for the home page starts from here */
   text-align: center;
 }
 
-.fas {
-  margin-right: 10px;
-  color: rgb(7, 171, 235);
-  font-size: 2rem;
-}
 .focus-text {
   font-weight: 540;
   font-size: 1.3rem;
