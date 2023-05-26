@@ -305,12 +305,16 @@ styling for the home page starts from here */
 /* Custom CSS for Upcoming Events section */
 #upcomingEvents {
   padding: 50px 0;
+  height: auto;
+  width: 100%;
 }
 
 #upcomingEvents .section-title {
-  font-size: 36px;
-  font-weight: bold;
+  font-size: 1.5rem;
+  font-weight: 600;
   text-align: center;
+  padding: 20px 10px;
+  text-transform: capitalize;
 }
 
 #upcomingEvents .card {
@@ -343,8 +347,8 @@ styling for the home page starts from here */
   display: grid;
   place-items: center;
   gap: 20px;
-  border: 2px solid transparent; /* Add border property with light blue color */
-  border-radius: 10px; /* Optional: Add border radius for rounded corners */
+  border: 2px solid transparent;
+  border-radius: 10px;
   text-align: center;
 }
 
