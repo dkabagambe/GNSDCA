@@ -427,6 +427,13 @@ styling for the home page starts from here */
 #upcomingEvents .card {
   height: 100%;
 }
+.additional-content {
+  display: none;
+}
+
+.show-content .additional-content {
+  display: block;
+}
 /* ================focus area styles========== */
 #foc {
   width: 100%;
