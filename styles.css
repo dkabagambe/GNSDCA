@@ -245,62 +245,165 @@ styling for the home page starts from here */
   }
 }
 
-/* CSS for About Us section  starts here*/
-#aboutUs {
-  background-color: #f8f9fa;
-  margin: 0;
-  padding: 0;
-  margin-top: 10px;
+/* CSS for About Us section starts here */
+.section-bg {
+  background-color: #f1ffff;
+  padding: 60px 0;
+  overflow: hidden;
 }
 
-#aboutUs .container {
-  height: 100%;
-  margin: 0 auto;
-  max-width: 100%;
+.section-title {
+  text-align: center;
+  padding-bottom: 30px;
 }
 
-#aboutUs .accordion-button {
-  background-color: #e9ecef;
-  color: #333;
+.section-title h2 {
+  font-size: 32px;
   font-weight: bold;
-  border: none;
-  border-radius: 0;
-  padding: 10px 20px;
-  margin-bottom: 10px;
-  text-align: left;
-  width: 100%;
-  transition: background-color 0.3s ease;
-}
-
-#aboutUs .accordion-button:focus {
-  outline: none;
-}
-
-#aboutUs .accordion-button:not(.collapsed) {
-  background-color: #dee2e6;
-}
-
-#aboutUs .accordion-body {
-  background-color: #fff;
-  padding: 20px;
-  border: 1px solid #dee2e6;
-}
-
-#aboutUs .accordion-body .about-title {
-  font-size: 24px;
-  color: #222;
   margin-bottom: 20px;
-  margin-top: 40px;
-  font-family: garamond;
-  font-weight: 600;
+  padding-bottom: 20px;
+  position: relative;
+  color: #222;
 }
 
-#aboutUs .accordion-body .about-paragraph {
-  font-size: 18px;
-  color: #333;
-  line-height: 1.5;
-  font-family: cormorant;
+.section-title h2::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 120px;
+  height: 1px;
+  background: #ddd;
+  bottom: 1px;
+  left: calc(50% - 60px);
 }
+
+.section-title h2::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 3px;
+  background: #333;
+  bottom: 0;
+  left: calc(50% - 20px);
+}
+
+.section-title p {
+  margin-bottom: 0;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+  padding: 20px 10px;
+  text-transform: capitalize;
+  font-family: serif;
+}
+
+.faq .faq-list {
+  padding: 0 100px;
+}
+
+.faq .faq-list ul {
+  padding: 0;
+  list-style: none;
+}
+
+.faq .faq-list li + li {
+  margin-top: 15px;
+}
+
+.faq .faq-list li {
+  padding: 20px;
+  background: #fff;
+  border-radius: 4px;
+  position: relative;
+}
+
+.faq .faq-list a {
+  display: block;
+  position: relative;
+  font-family: dosis;
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 500;
+  padding: 0 30px;
+  outline: none;
+  cursor: pointer;
+  color: #333;
+}
+
+.faq .faq-list a:hover {
+  color: #000000;
+  transition: color 0ms;
+  border-bottom-color: transparent;
+}
+
+.faq .faq-list .icon-help {
+  font-size: 24px;
+  position: absolute;
+  right: 0;
+  left: 20px;
+  color: #0bf51a;
+}
+
+.faq .faq-list .icon-show,
+.faq .faq-list .icon-close {
+  font-size: 24px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.faq .faq-list p {
+  margin-bottom: 0;
+  padding: 10px 0 0 0;
+  font-size: 20px;
+}
+
+.faq .faq-list .icon-show {
+  display: none;
+}
+
+.faq .faq-list a.collapsed {
+  color: #343a40;
+}
+
+.faq .faq-list a.collapsed:hover {
+  color: #1977cc;
+}
+
+.faq .faq-list a.collapsed .icon-show {
+  display: inline-block;
+}
+
+.faq .faq-list a.collapsed .icon-close {
+  display: none;
+}
+
+@media (max-width: 1200px) {
+  .faq .faq-list {
+    padding: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .faq .faq-list p {
+    background-color: #fff;
+    height: auto;
+    width: 100%;
+    position: relative;
+    border: none;
+  }
+  .faq .faq-list .icon-help {
+    font-size: 13px;
+  }
+  .faq .faq-list li:hover {
+    position: relative;
+    text-decoration: none;
+    border-bottom-color: none;
+    transition: 0ms;
+  }
+}
+
 /* ================upcoming events==================== */
 /* Custom CSS for Upcoming Events section */
 #upcomingEvents {
@@ -380,24 +483,35 @@ styling for the home page starts from here */
 
 .footer-content {
   display: grid;
-  grid-template-columns: 2fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 20px;
   text-align: center;
 }
 
 .footer-column {
   margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch; /* Ensures elements stretch to fill the width of the column */
+  justify-content: space-between; /* Distributes elements evenly along the column */
+}
+
+.footer-column > * {
+  flex-grow: 1; /* Makes each element grow to fill the available space */
 }
 
 .footer-column h4 {
   margin-bottom: 20px;
-  font-size: 20px;
-  font-family: serif;
-  font-weight: 500;
+  font-size: 22px;
+  font-family: garamond;
+  font-weight: 600;
   text-align: center;
+  color: #90f502;
+  text-transform: capitalize;
+  align-self: center;
 }
 .footer-column p {
-  text-align: left;
+  align-self: center;
   font-size: 18px;
   font-family: cormorant;
 }
@@ -408,18 +522,24 @@ styling for the home page starts from here */
 }
 
 .footer-links li {
-  margin-bottom: 10px;
+  margin-bottom: 50px;
 }
 
+.footer-links li:last-child {
+  margin-bottom: 0;
+}
 .footer-links a {
   color: #ffffff;
   text-decoration: none;
   font-size: 16px;
+  text-transform: capitalize;
 }
 .footer-links a:hover {
-  color: initial;
-  transition: initial;
-  border-bottom-color: initial;
+  color: #696767;
+  text-decoration: none;
+  font-size: 16px;
+  text-transform: capitalize;
+  border-bottom-color: transparent;
 }
 
 /* Media Queries */
@@ -428,12 +548,19 @@ styling for the home page starts from here */
     grid-template-columns: 1fr;
     text-align: center;
   }
+  .footer-links li {
+    margin-bottom: 10px;
+  }
+
+  .footer-links li:last-child {
+    margin-bottom: 10px;
+  }
 }
 p.footer-copyright {
   text-align: center;
   color: gold;
   font-size: 19px;
-  font-weight: 600;
+  font-weight: 500;
   margin: 15px;
-  font-family: "Roboto", sans-serif;
+  font-family: Zapfino;
 }

@@ -22,6 +22,10 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
     />
+    <link
+      href="https://cdn.jsdelivr.net/npm/boxicons@2.0.7/css/boxicons.min.css"
+      rel="stylesheet"
+    />
 
     <link rel="stylesheet" href="styles.css" />
     <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png" />
@@ -129,33 +133,32 @@
     </section>
     <!-- the slider ends here -->
     <!-- ===============the about us section======================== -->
-    <section id="aboutUs">
+
+    <!-- ======= Frequently Asked Questions Section ======= -->
+    <section id="faq" class="faq section-bg">
       <div class="container">
-        <div class="accordion" id="aboutAccordion">
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="aboutHeader">
-              <button
-                class="accordion-button"
-                type="button"
+        <div class="section-title">
+          <h2>About Us</h2>
+          <p>Global North and South Dialogue on Climate Action (GNSDCA)</p>
+        </div>
+
+        <div class="faq-list">
+          <ul>
+            <li data-aos="fade-up">
+              <i class="bx bx-help-circle icon-help"></i>
+              <a
                 data-bs-toggle="collapse"
-                data-bs-target="#aboutCollapse"
-                aria-expanded="true"
-                aria-controls="aboutCollapse"
+                class="collapse"
+                data-bs-target="#faq-list-1"
+                >About GNSDCA <i class="bx bx-chevron-down icon-show"></i
+                ><i class="bx bx-chevron-up icon-close"></i
+              ></a>
+              <div
+                id="faq-list-1"
+                class="collapse show"
+                data-bs-parent=".faq-list"
               >
-                About Us
-              </button>
-            </h2>
-            <div
-              id="aboutCollapse"
-              class="accordion-collapse collapse show"
-              aria-labelledby="aboutHeader"
-              data-bs-parent="#aboutAccordion"
-            >
-              <div class="accordion-body">
-                <h3 class="about-title">
-                  Global North and South Dialogue on Climate Action (GNSDCA)
-                </h3>
-                <p class="about-paragraph">
+                <p>
                   Founded in 2021, the Global North and South Movement on
                   Climate Action is a global movement of youth and youth
                   networks from the Global North and South striving to create
@@ -166,8 +169,48 @@
                   the climate crisis is a global concern and can only be
                   addressed by joint action and unified stances.
                 </p>
-                <h3 class="about-title">Our work and mandate</h3>
-                <p class="about-paragraph">
+              </div>
+            </li>
+
+            <li data-aos="fade-up" data-aos-delay="100">
+              <i class="bx bx-help-circle icon-help"></i>
+              <a
+                data-bs-toggle="collapse"
+                data-bs-target="#faq-list-2"
+                class="collapsed"
+              >
+                Who We Are ? <i class="bx bx-chevron-down icon-show"></i
+                ><i class="bx bx-chevron-up icon-close"></i
+              ></a>
+              <div id="faq-list-2" class="collapse" data-bs-parent=".faq-list">
+                <p>
+                  We are young people from vast backgrounds both from the global
+                  North and the global South who met at COP 26 and COP 27,
+                  realized a gap concerning climate action; how other young
+                  people at the Grassroots are also brought on board for their
+                  voices to be heard and hence we decided to have the global
+                  North and Global South Dialogue on climate action that will
+                  help achieve this objective and also have a broader impact
+                  concerning climate action. Despite all our organizations and
+                  entities that we represent we decided to have this dialogue
+                  for a global North and Global South as young people but not as
+                  the organizations that we represent.
+                </p>
+              </div>
+            </li>
+
+            <li data-aos="fade-up" data-aos-delay="200">
+              <i class="bx bx-help-circle icon-help"></i>
+              <a
+                data-bs-toggle="collapse"
+                data-bs-target="#faq-list-3"
+                class="collapsed"
+              >
+                Our Work and Mandate <i class="bx bx-chevron-down icon-show"></i
+                ><i class="bx bx-chevron-up icon-close"></i
+              ></a>
+              <div id="faq-list-3" class="collapse" data-bs-parent=".faq-list">
+                <p>
                   Climate Change negotiations at different levels including
                   UNFCCC COP still continue to yield minimal results and
                   progress due to non-consensus between parties majorly the
@@ -180,11 +223,36 @@
                   communities.
                 </p>
               </div>
-            </div>
-          </div>
+            </li>
+
+            <li data-aos="fade-up" data-aos-delay="300">
+              <i class="bx bx-help-circle icon-help"></i>
+              <a
+                data-bs-toggle="collapse"
+                data-bs-target="#faq-list-4"
+                class="collapsed"
+              >
+                Participation <i class="bx bx-chevron-down icon-show"></i
+                ><i class="bx bx-chevron-up icon-close"></i
+              ></a>
+              <div id="faq-list-4" class="collapse" data-bs-parent=".faq-list">
+                <p>
+                  We are to have regional representatives at least two from each
+                  continent, and these regional representatives are to work hand
+                  in hand with the country representatives at least one from
+                  each country. We are also to take on a multi-sectoral
+                  approach; working with some key professionals in the climate
+                  space from various backgrounds like faith institutions,
+                  school/universities, private sector, among other sectors.
+                </p>
+              </div>
+            </li>
+          </ul>
         </div>
       </div>
     </section>
+
+    <!-- End Frequently Asked Questions Section -->
     <!-- ====================upcoming events========================= -->
     <!-- HTML code -->
     <section id="upcomingEvents">
@@ -315,32 +383,31 @@
       <div class="container">
         <div class="footer-content">
           <div class="footer-column">
-            <h4>Who we are</h4>
-            <p>
-              We are young people from vast backgrounds both from the global
-              North and the global South who met at COP 26 and COP 27, realized
-              a gap concerning climate action; how other young people at the
-              Grassroots are also brought on board for their voices to be heard
-              and hence we decided to have the global North and Global South
-              Dialogue on climate action that will help achieve this objective
-              and also have a broader impact concerning climate action. Despite
-              all our organizations and entities that we represent we decided to
-              have this dialogue for a global North and Global South as young
-              people but not as the organizations that we represent.
-            </p>
+            <h4>our location</h4>
+            <div style="width: 100%">
+              <iframe
+                width="100%"
+                height="400"
+                frameborder="0"
+                scrolling="no"
+                marginheight="0"
+                marginwidth="0"
+                src="https://maps.google.com/maps?width=100%25&amp;height=400&amp;hl=en&amp;q=Plot%202%20Lugard%20Road+(global%20north)&amp;t=p&amp;z=13&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+              ></iframe>
+            </div>
           </div>
           <div class="footer-column">
             <h4>Quick Links</h4>
             <ul class="footer-links">
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About Us</a></li>
-              <li><a href="#">Upcoming Events</a></li>
-              <li><a href="#">our focus</a></li>
-              <li><a href="#">contact</a></li>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="#aboutUs">About us</a></li>
+              <li><a href="#upcomingEvents">Upcoming Events </a></li>
+              <li><a href="#foc">our focus</a></li>
+              <li><a href="#">contact us</a></li>
             </ul>
           </div>
           <div class="footer-column">
-            <h4>Contact</h4>
+            <h4>Contacts</h4>
             <p>Email: info@gnsda.com</p>
             <p>Phone: +256 705 108561</p>
             <p>P.O Box 335 Kampala Uganda!</p>
@@ -349,7 +416,11 @@
           </div>
         </div>
         <p class="footer-copyright">
-          &copy; 2023 All rights reserved by GNSDCA
+          &copy;
+          <script>
+            document.write(new Date().getFullYear());
+          </script>
+          All rights reserved by GNSDCA
         </p>
       </div>
     </footer>
