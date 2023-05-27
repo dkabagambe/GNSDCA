@@ -387,11 +387,14 @@ styling for the home page starts from here */
 
 @media (max-width: 768px) {
   .faq .faq-list p {
-    background-color: #fff;
     height: auto;
     width: 100%;
+    background-color: #fff;
     position: relative;
-    border: none;
+    margin-bottom: 0;
+    padding: 10px 0 0 0;
+    font-size: 20px;
+    border: none !important; /* Remove the border */
   }
   .faq .faq-list .icon-help {
     font-size: 13px;
