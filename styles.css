@@ -166,7 +166,7 @@ styling for the home page starts from here */
 
 .swiper-container {
   width: 100%;
-  height: 600px;
+  height: auto;
   position: relative;
   margin-top: 0px;
   display: flex;
@@ -205,12 +205,13 @@ styling for the home page starts from here */
 }
 
 .slide-caption p {
-  font-size: 1.8rem;
-  color: #ffffff; /* White color */
-  line-height: 2;
+  font-size: 1.5rem;
+  color: rgb(255, 183, 1);
+  line-height: 3;
   font-weight: 900;
-  margin-top: 5px; /* Adjust as needed */
-  font-family: monospace;
+  margin-top: 20%;
+  font-family: dosis;
+  text-shadow: 2px 2px 4px #2507b5;
 }
 
 .swiper-pagination {
@@ -228,7 +229,7 @@ styling for the home page starts from here */
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  background-color: gold !important;
+  background-color: #fff !important;
   margin: 0 5px;
 }
 
@@ -247,16 +248,18 @@ styling for the home page starts from here */
     font-weight: 600;
     color: #2507b5;
     margin-bottom: 5px; /* Adjust as needed */
-    line-height: 1;
+    line-height: 2;
     text-align: center;
     font-family: dosis;
   }
 
   .slide-caption p {
     font-size: 1rem;
-    line-height: 1;
+    line-height: 2.5;
     font-weight: 600;
     font-family: monospace;
+    margin-bottom: 20%;
+    margin-top: 35%;
   }
 }
 /* Styles for tablets */
@@ -276,7 +279,7 @@ styling for the home page starts from here */
 
   .slide-caption p {
     font-size: 1rem;
-    line-height: 1;
+    line-height: 2;
     font-weight: 600;
     font-family: monospace;
   }
