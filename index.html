@@ -115,19 +115,42 @@
       <div class="swiper-container">
         <div class="swiper-wrapper">
           <div class="swiper-slide">
-            <img src="images/IMG_3056.jpg" alt="Slide 1" />
+            <img src="images/IMG_3056.jpg" alt="Slide 4" />
             <div class="slide-caption">
               <h3>GNSDCA</h3>
               <p>Global North and South Dialogue on Climate Action</p>
             </div>
           </div>
           <div class="swiper-slide">
-            <img src="images/IMG_3959.jpg" alt="Slide 2" />
+            <img src="images/IMG_0801.jpeg" alt="Slide 1" />
             <div class="slide-caption">
               <h3>GNSDCA</h3>
               <p>Global North and South Dialogue on Climate Action</p>
             </div>
           </div>
+          <div class="swiper-slide">
+            <img src="images/IMG_0803.jpeg" alt="Slide 2" />
+            <div class="slide-caption">
+              <h3>GNSDCA</h3>
+              <p>Global North and South Dialogue on Climate Action</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="images/IMG_0804.jpeg" alt="Slide 3" />
+            <div class="slide-caption">
+              <h3>GNSDCA</h3>
+              <p>Global North and South Dialogue on Climate Action</p>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <img src="images/IMG_3959.jpg" alt="Slide 8" />
+            <div class="slide-caption">
+              <h3>GNSDCA</h3>
+              <p>Global North and South Dialogue on Climate Action</p>
+            </div>
+          </div>
+
           <!-- Add more slides here -->
         </div>
         <div class="swiper-pagination"></div>
@@ -436,10 +459,20 @@
         loop: true,
         autoplay: {
           delay: 3000, // Autoplay delay in milliseconds (5000ms = 5 seconds)
+          disableOnInteraction: false, // Enable autoplay even on user interaction
         },
         pagination: {
           el: ".swiper-pagination",
           clickable: true,
+        },
+        // Add the following options to pause the autoplay on hover
+        on: {
+          mouseenter: function () {
+            swiper.autoplay.stop();
+          },
+          mouseleave: function () {
+            swiper.autoplay.start();
+          },
         },
       });
     </script>
