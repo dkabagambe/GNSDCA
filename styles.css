@@ -11,7 +11,7 @@
 /* to avoid horizontal scroll,you must set the position relative,height 100% ,and overflow-x: hidden; inorder to work */
 html,
 body {
-  background-color: #fff;
+  background-color: #ffffff;
   font-size: 1rem;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: transparent;
@@ -255,7 +255,7 @@ styling for the home page starts from here */
   .slide-caption p {
     font-size: 1rem;
     line-height: 1;
-    font-weight: 900;
+    font-weight: 600;
     font-family: monospace;
   }
 }
@@ -263,6 +263,22 @@ styling for the home page starts from here */
 @media (max-width: 768px) {
   .swiper-container {
     height: 400px; /* Adjusted height for tablets */
+  }
+  .slide-caption {
+    margin: 0;
+  }
+  .slide-caption h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #2507b5;
+    font-family: dosis;
+  }
+
+  .slide-caption p {
+    font-size: 1rem;
+    line-height: 1;
+    font-weight: 600;
+    font-family: monospace;
   }
 }
 
@@ -513,7 +529,7 @@ styling for the home page starts from here */
   color: #ffffff;
 }
 
-.container {
+.footer.container {
   width: 100%;
   margin: 0 auto;
   padding: 0 20px;
@@ -601,4 +617,108 @@ p.footer-copyright {
   font-weight: 500;
   margin: 15px;
   font-family: Zapfino;
+}
+/* this section styling starts from here */
+#focus {
+  background-color: #f0f0f0;
+  padding: 20px;
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+#focus h3 {
+  text-align: center !important;
+  text-transform: capitalize;
+  font-weight: 500;
+  color: #000;
+  font-family: serif;
+  margin-bottom: 20px;
+}
+
+#focus .container {
+  display: flex;
+  height: 100%;
+  width: 99%;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+#focus .content-column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+#focus .content-column p {
+  line-height: 1.5;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: normal;
+  align-self: center;
+  justify-self: center;
+}
+
+#focus .content-column ul {
+  list-style-type: none;
+  padding-left: 20px;
+}
+
+#focus .content-column li {
+  position: relative;
+  padding-left: 25px;
+  margin-bottom: 5px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-family: garamond;
+  font-weight: normal;
+}
+
+#focus .content-column li::before {
+  content: "\2713";
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: green;
+  font-weight: bold;
+}
+
+#focus .image-column {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+#focus .image-column img {
+  width: 90%;
+  height: auto;
+  object-fit: cover;
+  padding: 5px 3px;
+}
+
+/* Media query for mobile devices */
+@media only screen and (max-width: 768px) {
+  #focus .container {
+    flex-direction: column;
+  }
+
+  #focus .content-column,
+  #focus .image-column {
+    width: 100%;
+  }
+  #focus .content-column p {
+    text-align: justify;
+  }
+
+  #focus .image-column {
+    margin-top: 20px;
+  }
+
+  #focus .image-column img {
+    width: 100%;
+    border-radius: 10px;
+  }
 }
