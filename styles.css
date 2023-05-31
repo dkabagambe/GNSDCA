@@ -300,7 +300,14 @@ styling for the home page starts from here */
 
 /* CSS for About Us section starts here */
 .section-bg {
-  background-color: #fbffff;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0.4)
+    ),
+    url("images/blue.jfif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   padding: 60px 0;
   overflow: hidden;
 }
