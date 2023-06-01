@@ -1639,3 +1639,68 @@ body.rtl #qlwapp .qlwapp-box.response .qlwapp-carousel .qlwapp-slide {
 body.rtl #qlwapp .qlwapp-box .qlwapp-contact {
   flex-direction: row-reverse;
 }
+/* styles for the contact */
+#contact {
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 5px;
+}
+
+#contact .col-md-6 {
+  flex: 1;
+  margin: 20px;
+  align-self: stretch;
+}
+
+#contact .contact-form {
+  flex: 1;
+}
+
+#contact .contact-form form {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+#contact .contact-form label,
+#contact .contact-form input,
+#contact .contact-form textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+#contact .contact-form input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#contact .contact-form input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+@media only screen and (max-width: 767px) {
+  #contact {
+    flex-direction: column;
+    padding: 5px;
+  }
+
+  #contact .col-md-6 {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}
+
+.twitter-container {
+  width: 100%;
+  overflow: hidden;
+}

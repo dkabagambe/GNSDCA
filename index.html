@@ -30,6 +30,7 @@
       href="https://cdn.jsdelivr.net/npm/boxicons@2.0.7/css/boxicons.min.css"
       rel="stylesheet"
     />
+
     <link rel="stylesheet" href="styles.css" />
     <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png" />
     <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png" />
@@ -84,6 +85,11 @@
       sizes="16x16"
       href="/images/fav/favicon-16x16.png"
     />
+    <script
+      async
+      src="https://platform.twitter.com/widgets.js"
+      charset="utf-8"
+    ></script>
   </head>
   <body>
     <!--header-->
@@ -483,6 +489,49 @@
         </div>
       </div>
     </section>
+    <!-- ================================= -->
+    <section id="contact">
+      <div class="col-md-6">
+        <p>Follow Us on Twitter</p>
+        <div class="twitter-container">
+          <a
+            class="twitter-timeline"
+            data-height="450"
+            data-theme="light"
+            href="https://twitter.com/GNSDialogue?ref_src=twsrc%5Etfw"
+            >Tweets by GNSDialogue</a
+          >
+          <script
+            async
+            src="https://platform.twitter.com/widgets.js"
+            charset="utf-8"
+          ></script>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="contact-form">
+          <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required />
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+
+            <label for="phone">Phone:</label>
+            <input type="text" id="phone" name="phone" required />
+
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" name="subject" required />
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="6" required></textarea>
+
+            <input type="submit" value="Submit" />
+          </form>
+        </div>
+      </div>
+    </section>
+
     <!-- ==========whatsapp============== -->
     <div
       id="qlwapp"
