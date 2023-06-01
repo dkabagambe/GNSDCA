@@ -300,10 +300,7 @@ styling for the home page starts from here */
 
 /* CSS for About Us section starts here */
 .section-bg {
-  background: linear-gradient(
-      rgba(255, 255, 255, 0.6),
-      rgba(255, 255, 255, 0.3)
-    ),
+  background: linear-gradient(rgba(98, 98, 194, 0.5), rgba(83, 250, 83, 0.9)),
     url("images/blue.jfif");
   background-position: center;
   background-repeat: no-repeat;
@@ -468,7 +465,7 @@ styling for the home page starts from here */
 }
 
 /* ================upcoming events==================== */
-/* Custom CSS for Upcoming Events section */
+
 #upcomingEvents {
   padding: 50px 0;
   height: auto;
@@ -486,6 +483,11 @@ styling for the home page starts from here */
 
 #upcomingEvents .card {
   height: 100%;
+}
+#upcomingEvents .card-text {
+  font-size: 20px;
+  color: #454545;
+  font-family: garamond;
 }
 
 /* ================focus area styles========== */
