@@ -301,8 +301,8 @@ styling for the home page starts from here */
 /* CSS for About Us section starts here */
 .section-bg {
   background: linear-gradient(
-      rgba(255, 255, 255, 0.5),
-      rgba(255, 255, 255, 0.7)
+      rgba(255, 255, 255, 0.6),
+      rgba(255, 255, 255, 0.3)
     ),
     url("images/blue.jfif");
   background-position: center;
