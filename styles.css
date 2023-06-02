@@ -1640,23 +1640,36 @@ body.rtl #qlwapp .qlwapp-box .qlwapp-contact {
   flex-direction: row-reverse;
 }
 /* styles for the contact */
-#contact {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  padding: 20px;
-  background: linear-gradient(rgba(98, 98, 194, 0.7), rgba(83, 250, 83, 0.4)),
-    url("images/green.jfif");
+#contacts {
+  background: linear-gradient(rgba(121, 121, 234, 0.7), rgba(83, 250, 83, 0.4)),
+    url("images/dark.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
+  padding: 20px;
+}
+#contact {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+#contacts h6 {
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: 600;
+  color: #000;
+  display: grid;
+  place-items: center;
+  padding: 20px 10px;
+  font-family: serif;
+  font-size: 2rem;
 }
 
 #contact .col-md-6 {
-  flex: 1;
   margin: 20px;
-  align-self: stretch;
+  flex-basis: 50%;
+  padding: 0 10px;
 }
 
 #contact .contact-form {
@@ -1666,7 +1679,6 @@ body.rtl #qlwapp .qlwapp-box .qlwapp-contact {
 #contact .contact-form form {
   max-width: 400px;
   margin: 0 auto;
-  background-color: #f2f2f2;
   padding: 20px;
   border-radius: 5px;
 }
@@ -1678,6 +1690,17 @@ body.rtl #qlwapp .qlwapp-box .qlwapp-contact {
   width: 100%;
   margin-bottom: 10px;
 }
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: none;
+  outline: none;
+}
 
 #contact .contact-form input[type="submit"] {
   background-color: #4caf50;
@@ -1686,21 +1709,49 @@ body.rtl #qlwapp .qlwapp-box .qlwapp-contact {
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  font-weight: 800;
+  font-size: 20px;
+  font-family: cormorant;
 }
 
 #contact .contact-form input[type="submit"]:hover {
   background-color: #45a049;
+}
+#contact .contact-form label {
+  font-weight: 700;
+  color: cyan;
+  margin-bottom: 5px;
+  font-family: cormorant;
+  font-size: 18px;
+}
+#contact h3 {
+  text-align: center;
+  color: #0bf51a;
+  margin-top: 20px;
+  font-size: 20px;
+  font-family: garamond;
+  font-weight: 650;
 }
 
 @media only screen and (max-width: 767px) {
   #contact {
     flex-direction: column;
     padding: 5px;
+    width: 100%;
   }
 
   #contact .col-md-6 {
-    margin-right: 0;
-    margin-bottom: 20px;
+    margin: 5px auto; /* Set margin to auto to center the element horizontally */
+    flex-basis: 100%;
+    padding: 20 10px; /* Add padding on the sides */
+    width: 100%;
+  }
+
+  #contact .contact-form form {
+    max-width: 480px;
+    margin: 0;
+    padding: 5px;
+    border-radius: 5px;
   }
 }
 
