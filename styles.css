@@ -1641,12 +1641,16 @@ body.rtl #qlwapp .qlwapp-box .qlwapp-contact {
 }
 /* styles for the contact */
 #contact {
-  height: auto;
-  width: 100%;
   display: flex;
   justify-content: center;
-  align-items: center;
-  padding: 20px 5px;
+  align-items: flex-start;
+  padding: 20px;
+  background: linear-gradient(rgba(98, 98, 194, 0.7), rgba(83, 250, 83, 0.4)),
+    url("images/green.jfif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
 }
 
 #contact .col-md-6 {
