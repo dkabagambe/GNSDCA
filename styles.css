@@ -1763,6 +1763,7 @@ body.rtl #qlwapp .qlwapp-box .qlwapp-contact {
 #team {
   width: 100%;
   height: auto;
+  padding: 20px 0;
 }
 #team h3 {
   text-align: center;
