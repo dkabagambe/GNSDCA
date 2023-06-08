@@ -443,8 +443,12 @@ styling for the home page starts from here */
 }
 
 @media (max-width: 768px) {
+  /* .faq .faq-list ul {
+    height: 100%;
+    width: 100%;
+  } */
   .faq .faq-list p {
-    height: auto;
+    height: 100%;
     width: 100%;
     background-color: #fff;
     position: relative;
@@ -1804,6 +1808,6 @@ body.rtl #qlwapp .qlwapp-box .qlwapp-contact {
 .team-member h4 {
   margin: 0;
   font-family: garamond;
-  color: #303030;
-  font-weight: 500;
+  color: #333;
+  font-weight: 520;
 }
