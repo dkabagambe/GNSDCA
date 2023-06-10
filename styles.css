@@ -305,7 +305,7 @@ styling for the home page starts from here */
 
 /* CSS for About Us section starts here */
 .section-bg {
-  background: linear-gradient(rgba(98, 98, 194, 0.5), rgba(83, 250, 83, 0.9)),
+  background: linear-gradient(rgba(178, 178, 199, 0.9), rgba(98, 98, 114, 0.5)),
     url("images/52502187663_e27315cd4f_k.jpg");
   background-position: center;
   background-repeat: no-repeat;
