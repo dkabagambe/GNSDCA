@@ -163,7 +163,6 @@ ul li a:hover {
 
 /* 
 styling for the home page starts from here */
-
 .swiper-container {
   width: 100%;
   height: 700px;
@@ -174,6 +173,7 @@ styling for the home page starts from here */
   align-items: center;
   padding: 0px;
 }
+
 .swiper-slide {
   position: relative;
 }
@@ -182,6 +182,7 @@ styling for the home page starts from here */
   width: 100%;
   height: 100%;
   object-fit: cover;
+  filter: brightness(1); /* Adjust the brightness value as needed */
 }
 
 .slide-caption {
@@ -193,6 +194,7 @@ styling for the home page starts from here */
   text-align: center;
   width: 100%;
 }
+
 .slide-caption h3 {
   font-size: 3em;
   font-weight: 700;
@@ -224,6 +226,7 @@ styling for the home page starts from here */
   align-items: center;
   z-index: 10;
 }
+
 .swiper-pagination-bullet {
   display: inline-block;
   width: 10px;
@@ -236,6 +239,7 @@ styling for the home page starts from here */
 .swiper-pagination-bullet-active {
   color: #3807f9 !important;
 }
+
 @media (max-width: 991px) {
   .swiper-container {
     height: 450px;
@@ -262,6 +266,7 @@ styling for the home page starts from here */
     margin-top: 35%;
   }
 }
+
 /* Styles for tablets */
 @media (max-width: 768px) {
   .swiper-container {
@@ -307,6 +312,21 @@ styling for the home page starts from here */
   background-size: cover;
   padding: 60px 0;
   overflow: hidden;
+
+  /* Add the following styles for the slider effect */
+  animation: brightnessSlider 5s infinite alternate;
+}
+
+@keyframes brightnessSlider {
+  0% {
+    filter: brightness(1);
+  }
+  50% {
+    filter: brightness(0.6);
+  }
+  100% {
+    filter: brightness(1);
+  }
 }
 
 .section-title {
