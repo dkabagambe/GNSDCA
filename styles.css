@@ -493,7 +493,7 @@ styling for the home page starts from here */
       ),
       url("images/51749358387_e36160a6f8_k.jpg");
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: auto;
     padding: 20px 0;
     overflow: hidden;
