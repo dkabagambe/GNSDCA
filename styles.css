@@ -486,6 +486,21 @@ styling for the home page starts from here */
     border-bottom-color: none;
     transition: 0ms;
   }
+  .section-bg {
+    background: linear-gradient(
+        rgba(178, 178, 199, 0.9),
+        rgba(176, 176, 238, 0.5)
+      ),
+      url("images/51749358387_e36160a6f8_k.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    padding: 20px 0;
+    overflow: hidden;
+
+    /* Add the following styles for the slider effect */
+    animation: brightnessSlider 5s infinite alternate;
+  }
 }
 
 /* ================upcoming events==================== */
