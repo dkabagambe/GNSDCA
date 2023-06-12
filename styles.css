@@ -11,7 +11,7 @@
 /* to avoid horizontal scroll,you must set the position relative,height 100% ,and overflow-x: hidden; inorder to work */
 html,
 body {
-  background-color: #ffffff;
+  background-color: #f5f5ef;
   font-size: 1rem;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: transparent;
@@ -305,7 +305,10 @@ styling for the home page starts from here */
 
 /* CSS for About Us section starts here */
 .section-bg {
-  background: linear-gradient(rgba(178, 178, 199, 0.9), rgba(98, 98, 114, 0.5)),
+  background: linear-gradient(
+      rgba(245, 245, 239, 0.5),
+      rgba(245, 245, 239, 0.7)
+    ),
     url("images/52514469095_516c89068b_k.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -488,8 +491,8 @@ styling for the home page starts from here */
   }
   .section-bg {
     background: linear-gradient(
-        rgba(178, 178, 199, 0.9),
-        rgba(176, 176, 238, 0.5)
+        rgba(245, 245, 239, 0.5),
+        rgba(245, 245, 239, 0.7)
       ),
       url("images/52514469095_516c89068b_k.jpg");
     background-position: center;
@@ -509,6 +512,7 @@ styling for the home page starts from here */
   padding: 50px 0;
   height: auto;
   width: 100%;
+  background-color: #f5f5ef;
 }
 
 #upcomingEvents .section-title {
@@ -522,6 +526,7 @@ styling for the home page starts from here */
 
 #upcomingEvents .card {
   height: 100%;
+  background-color: #f5f5ef;
 }
 #upcomingEvents .card-text {
   font-size: 20px;
@@ -537,6 +542,7 @@ styling for the home page starts from here */
 #focus {
   display: flex;
   flex-wrap: wrap;
+  background-color: #f5f5ef !important;
 }
 #foc h3 {
   text-align: center;
@@ -1680,7 +1686,10 @@ body.rtl #qlwapp .qlwapp-box .qlwapp-contact {
 }
 /* styles for the contact */
 #contacts {
-  background: linear-gradient(rgba(121, 121, 234, 0.7), rgba(83, 250, 83, 0.4)),
+  background: linear-gradient(
+      rgba(245, 245, 239, 0.5),
+      rgba(245, 245, 239, 0.7)
+    ),
     url("images/dark.jpg");
   background-position: center;
   background-repeat: no-repeat;
