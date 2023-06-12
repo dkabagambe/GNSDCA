@@ -1751,7 +1751,7 @@ body.rtl #qlwapp .qlwapp-box .qlwapp-contact {
 }
 
 #contact .contact-form input[type="submit"] {
-  background-color: #4caf50;
+  background-color: #161716;
   color: white;
   padding: 10px 20px;
   border: none;
@@ -1763,18 +1763,18 @@ body.rtl #qlwapp .qlwapp-box .qlwapp-contact {
 }
 
 #contact .contact-form input[type="submit"]:hover {
-  background-color: #45a049;
+  background-color: #383938e5;
 }
 #contact .contact-form label {
   font-weight: 700;
-  color: cyan;
+  color: #303030;
   margin-bottom: 5px;
   font-family: cormorant;
   font-size: 18px;
 }
 #contact h3 {
   text-align: center;
-  color: #0bf51a;
+  color: #fefefe;
   margin-top: 20px;
   font-size: 20px;
   font-family: garamond;
