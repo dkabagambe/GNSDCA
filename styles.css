@@ -628,7 +628,7 @@ styling for the home page starts from here */
 
 .footer-content {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 3fr 2fr;
   grid-gap: 20px;
   text-align: center;
 }
