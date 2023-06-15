@@ -640,6 +640,10 @@ styling for the home page starts from here */
   align-items: stretch; /* Ensures elements stretch to fill the width of the column */
   justify-content: space-between; /* Distributes elements evenly along the column */
 }
+.footer-column:last-child {
+  justify-self: flex-end;
+  margin-top: 30px;
+}
 
 .footer-column > * {
   flex-grow: 1; /* Makes each element grow to fill the available space */
@@ -692,6 +696,10 @@ styling for the home page starts from here */
   .footer-content {
     grid-template-columns: 1fr;
     text-align: center;
+  }
+  .footer-column:last-child {
+    justify-self: center;
+    margin-top: 20px;
   }
   .footer-links li {
     margin-bottom: 10px;
