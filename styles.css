@@ -712,11 +712,12 @@ styling for the home page starts from here */
 }
 p.footer-copyright {
   text-align: center;
-  color: gold;
-  font-size: 19px;
+  color: #1977cc;
+  font-size: 18px;
   font-weight: 500;
   margin: 15px;
-  font-family: Zapfino;
+  font-family: dosis;
+  letter-spacing: 1.2px;
 }
 /* this section styling starts from here */
 #focus {
