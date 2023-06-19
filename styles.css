@@ -568,6 +568,8 @@ styling for the home page starts from here */
 #foc {
   width: 100%;
   height: auto;
+  margin: 5px;
+  padding: 5px;
 }
 #focus {
   display: flex;
@@ -1763,14 +1765,22 @@ body.rtl #qlwapp .qlwapp-box .qlwapp-contact {
   font-size: 2rem;
 }
 
-#contact .col-md-6 {
-  margin: 20px;
-  flex-basis: 50%;
+#contact .col-md-4 {
+  margin: 10px;
+  flex-basis: 0.3;
   padding: 0 10px;
 }
-
+.linkedn {
+  width: 100%;
+  overflow: hidden;
+  flex: 0.3;
+}
+.twitter-container {
+  width: 100%;
+  flex-basis: 0.3;
+}
 #contact .contact-form {
-  flex: 1;
+  flex: 0.3;
 }
 
 #contact .contact-form form {
@@ -1778,6 +1788,7 @@ body.rtl #qlwapp .qlwapp-box .qlwapp-contact {
   margin: 0 auto;
   padding: 20px;
   border-radius: 5px;
+  height: 500;
 }
 
 #contact .contact-form label,
@@ -1835,26 +1846,38 @@ body.rtl #qlwapp .qlwapp-box .qlwapp-contact {
     flex-direction: column;
     padding: 5px;
     width: 100%;
+    align-items: center;
+    justify-content: center;
   }
 
-  #contact .col-md-6 {
+  #contact .col-md-4 {
     margin: 5px auto; /* Set margin to auto to center the element horizontally */
     flex-basis: 100%;
-    padding: 20 10px; /* Add padding on the sides */
+    padding: 0px 10px; /* Add padding on the sides */
     width: 100%;
   }
 
   #contact .contact-form form {
-    max-width: 480px;
+    max-width: 100% !important;
     margin: 0;
     padding: 5px;
     border-radius: 5px;
+    justify-content: center;
   }
 }
 
 .twitter-container {
   width: 100%;
   overflow: hidden;
+  align-items: center;
+  justify-content: center;
+}
+.linkedn {
+  width: 100%;
+  overflow: hidden;
+  max-width: 100%;
+  align-items: center;
+  justify-content: center;
 }
 /* team member css */
 #team {
