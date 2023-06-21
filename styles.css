@@ -611,8 +611,9 @@ styling for the home page starts from here */
 /* ==========footer styles========= */
 .footer {
   background-color: #000000;
-  padding: 20px 0;
+  padding: 10px 0 20px 0;
   color: #ffffff;
+  height: auto;
 }
 
 .footer.container {
@@ -623,8 +624,7 @@ styling for the home page starts from here */
 
 .footer-content {
   display: grid;
-  grid-template-columns: 3fr 2fr;
-  grid-gap: 20px;
+  place-content: center;
   text-align: center;
 }
 
@@ -634,11 +634,6 @@ styling for the home page starts from here */
   flex-direction: column;
   align-items: stretch; /* Ensures elements stretch to fill the width of the column */
   justify-content: space-between; /* Distributes elements evenly along the column */
-}
-.footer-column:last-child {
-  justify-self: flex-end;
-  margin-top: 30px;
-  font-family: monospace;
 }
 
 .footer-column > * {
@@ -660,33 +655,6 @@ styling for the home page starts from here */
   font-size: 18px;
   font-family: cormorant;
 }
-.footer-links {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.footer-links li {
-  margin-bottom: 50px;
-}
-
-.footer-links li:last-child {
-  margin-bottom: 0;
-}
-.footer-links a {
-  color: #ffffff;
-  text-decoration: none;
-  font-size: 16px;
-  text-transform: capitalize;
-}
-.footer-links a:hover {
-  color: #696767;
-  text-decoration: none;
-  font-size: 16px;
-  text-transform: capitalize;
-  border-bottom-color: transparent;
-}
-
 /* Media Queries */
 @media (max-width: 768px) {
   .footer-content {
