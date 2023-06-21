@@ -65,3 +65,5 @@ function closeModal() {
   prevBtn.removeEventListener("click", showPreviousImage);
   nextBtn.removeEventListener("click", showNextImage);
 }
+
+// this is the code for stopping cache override
