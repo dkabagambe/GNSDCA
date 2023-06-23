@@ -137,9 +137,8 @@ ul li a:hover {
     background-color: #000000;
     top: 8vh;
     left: 0;
-    height: 90%;
+    height: 100%;
     width: 100%;
-    padding-bottom: 25px;
     margin-top: -8vh;
     display: flex;
     flex-direction: column;
@@ -479,6 +478,7 @@ styling for the home page starts from here */
     background: transparent !important;
     border: none !important;
   }
+
   .faq .faq-list p {
     height: 100%; /* Set the height to auto */
     background-color: #fff !important;
