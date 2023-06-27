@@ -638,15 +638,14 @@ styling for the home page starts from here */
   display: grid;
   place-content: center;
   text-align: center;
+  grid-template-columns: repeat(, 1fr);
 }
 
 .footer-column {
   padding: 20px 5px;
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  grid-gap: 2vw; /* Adjust the value to control the spacing between elements */
-  place-content: center;
+  display: flex;
   text-align: center;
+  flex-direction: column;
 }
 
 .footer-column > * {
@@ -669,21 +668,21 @@ styling for the home page starts from here */
   font-family: cormorant;
 }
 @media (min-width: 1024px) {
-  .footer-column {
-    grid-template-columns: repeat(
-      6,
-      1fr
-    ); /* Reset to 6 columns on desktop screens */
-    display: flex;
-    flex-wrap: wrap;
-    gap: 2vw;
+  .footer-content {
+    display: grid;
+    place-content: center;
+    text-align: center;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 15px;
   }
 }
 /* Media Queries */
 @media (max-width: 768px) {
-  .footer-column {
-    padding: 5px;
-    grid-template-columns: 1fr; /* Change to a single column on 768px devices */
+  .footer-content {
+    display: grid;
+    place-content: center;
+    text-align: center;
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 p.footer-copyright {
@@ -1995,4 +1994,53 @@ body.rtl #qlwapp .qlwapp-box .qlwapp-contact {
 
 .next-btn {
   right: 10px;
+}
+/* subscribe */
+.info_contact form {
+  display: flex;
+  flex-direction: column;
+}
+.info_contact form input {
+  border: none;
+  padding: 10px;
+  padding-right: 20px;
+  background-color: #44649a;
+  width: auto;
+  height: 45px;
+  color: #ffffff;
+  outline: none;
+}
+
+.info_contact form input::-webkit-input-placeholder {
+  color: #ffffff;
+}
+
+.info_contact form input:-ms-input-placeholder {
+  color: #ffffff;
+}
+
+.info_contact form input::-ms-input-placeholder {
+  color: #ffffff;
+}
+
+.info_contact form input::placeholder {
+  color: #ffffff;
+}
+
+.info_contact form button {
+  width: auto;
+  text-align: center;
+  display: inline-block;
+  padding: 10px 55px;
+  background-color: #ff7241;
+  color: #ffffff;
+  border-radius: 0;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  border: none;
+  margin-top: 15px;
+}
+
+.info_contact form button:hover {
+  background-color: #f43f00;
 }
