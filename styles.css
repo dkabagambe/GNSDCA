@@ -638,7 +638,7 @@ styling for the home page starts from here */
   display: grid;
   place-content: center;
   text-align: center;
-  grid-template-columns: repeat(, 1fr);
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .footer-column {
