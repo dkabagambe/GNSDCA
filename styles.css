@@ -573,17 +573,19 @@ styling for the home page starts from here */
 }
 
 .focus-text {
-  font-weight: 540;
-  font-size: 2rem;
+  font-weight: 500;
+  font-size: 1.8rem;
   padding: 20px;
   font-family: dosis;
-  color: #000;
+  color: #161716;
 }
 
 @media (max-width: 768px) {
   #focus {
-    align-content: center;
     grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    margin: auto;
+    padding: auto;
   }
   .focus-area {
     flex-basis: 100%;
@@ -596,6 +598,14 @@ styling for the home page starts from here */
     height: 200px;
     object-fit: cover;
     border-radius: 5px;
+  }
+  .focus-text {
+    font-weight: 500;
+    font-size: 1.5rem;
+    padding: 15px;
+    font-family: dosis;
+    color: #222;
+    align-items: center;
   }
 }
 /* ==========footer styles========= */
