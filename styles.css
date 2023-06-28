@@ -194,25 +194,13 @@ styling for the home page starts from here */
   width: 100%;
 }
 
-.slide-caption h3 {
-  font-size: 3em;
-  font-weight: 700;
-  color: #2507b5;
-  margin-bottom: 5px; /* Adjust as needed */
-  line-height: 1.5;
-  text-align: center;
-  word-break: break-word;
-  font-family: "Brandon Grotesque Black", BRANDON GROTESQUE;
-}
-
 .slide-caption p {
-  font-size: 1.5rem;
-  color: rgb(255, 183, 1);
+  font-size: 2.1rem;
+  color: #fff;
   line-height: 3;
-  font-weight: 900;
-  margin-top: 20%;
+  font-weight: 600;
+  margin-top: 10%;
   font-family: dosis;
-  text-shadow: 2px 2px 4px #2507b5;
 }
 
 .swiper-pagination {
@@ -246,23 +234,13 @@ styling for the home page starts from here */
   .slide-caption {
     margin: 5px;
   }
-  .slide-caption h3 {
-    font-size: 24px;
-    font-weight: 600;
-    color: #2507b5;
-    margin-bottom: 5px; /* Adjust as needed */
-    line-height: 2;
-    text-align: center;
-    font-family: dosis;
-  }
 
   .slide-caption p {
     font-size: 1rem;
-    line-height: 2.5;
-    font-weight: 600;
-    font-family: monospace;
+    line-height: 2;
+    font-weight: 500;
+    font-family: dosis;
     margin-bottom: 20%;
-    margin-top: 35%;
   }
 }
 
@@ -274,18 +252,12 @@ styling for the home page starts from here */
   .slide-caption {
     margin: 0;
   }
-  .slide-caption h3 {
-    font-size: 20px;
-    font-weight: 600;
-    color: #2507b5;
-    font-family: dosis;
-  }
 
   .slide-caption p {
-    font-size: 1rem;
+    font-size: 1.3rem;
     line-height: 2;
-    font-weight: 600;
-    font-family: monospace;
+    font-weight: 550;
+    font-family: dosis;
   }
 }
 
