@@ -636,7 +636,7 @@ styling for the home page starts from here */
   font-family: garamond;
   font-weight: 600;
   text-align: center;
-  color: #90f502;
+  color: #efefef;
   text-transform: capitalize;
   align-self: center;
 }
@@ -644,6 +644,7 @@ styling for the home page starts from here */
   align-self: center;
   font-size: 18px;
   font-family: cormorant;
+  color: #f1f1f1;
 }
 @media (min-width: 1024px) {
   .footer-content {
@@ -665,7 +666,7 @@ styling for the home page starts from here */
 }
 p.footer-copyright {
   text-align: center;
-  color: #69ff0b;
+  color: snow;
   font-size: 16px;
   font-weight: 500;
   margin: 15px;
