@@ -574,9 +574,9 @@ styling for the home page starts from here */
 
 .focus-text {
   font-weight: 500;
-  font-size: 1.8rem;
-  padding: 20px;
-  font-family: dosis;
+  font-size: 1.7rem;
+  padding: 10px;
+  font-family: "Times New Roman", Times, serif;
   color: #161716;
 }
 
@@ -602,7 +602,7 @@ styling for the home page starts from here */
   .focus-text {
     font-weight: 500;
     font-size: 1.5rem;
-    padding: 15px;
+    padding: 10px;
     font-family: dosis;
     color: #222;
     align-items: center;
