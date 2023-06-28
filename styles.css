@@ -2005,10 +2005,12 @@ body.rtl #qlwapp .qlwapp-box .qlwapp-contact {
   padding: 10px;
   padding-right: 20px;
   background-color: #44649a;
-  width: auto;
+  width: 400px;
   height: 45px;
   color: #ffffff;
   outline: none;
+  align-self: center;
+  justify-self: center;
 }
 
 .info_contact form input::-webkit-input-placeholder {
@@ -2028,19 +2030,29 @@ body.rtl #qlwapp .qlwapp-box .qlwapp-contact {
 }
 
 .info_contact form button {
-  width: auto;
+  width: 400px;
   text-align: center;
   display: inline-block;
   padding: 10px 55px;
-  background-color: #ff7241;
+  background-color: #141313c8;
   color: #ffffff;
-  border-radius: 0;
+  border-radius: 10px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   border: none;
   margin-top: 15px;
+  align-self: center;
+  align-self: center;
+  justify-self: center;
 }
 
 .info_contact form button:hover {
   background-color: #f43f00;
+}
+@media (max-width: 768px) {
+  .info_contact form button,
+  .info_contact form input {
+    width: 350px;
+    align-self: center;
+  }
 }
