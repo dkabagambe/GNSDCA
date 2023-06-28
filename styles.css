@@ -319,7 +319,7 @@ styling for the home page starts from here */
 }
 
 .section-bg {
-  background: linear-gradient(rgba(56, 50, 95, 0.7), rgba(94, 88, 142, 0.7));
+  background: #838181;
   padding: 60px 0;
   overflow: hidden;
   height: auto;
@@ -495,8 +495,8 @@ styling for the home page starts from here */
     height: 100%;
   }
   .section-bg {
-    background: linear-gradient(rgba(56, 50, 95, 0.7), rgba(94, 88, 142, 0.7));
-    padding: 60px 0;
+    background: #737272;
+    padding: 50px 0;
     overflow: hidden;
     height: auto;
   }
