@@ -350,6 +350,7 @@ styling for the home page starts from here */
   background: linear-gradient(rgba(56, 50, 95, 0.7), rgba(94, 88, 142, 0.7));
   padding: 60px 0;
   overflow: hidden;
+  height: auto;
 }
 .section-title {
   text-align: center;
@@ -525,6 +526,7 @@ styling for the home page starts from here */
     background: linear-gradient(rgba(56, 50, 95, 0.7), rgba(94, 88, 142, 0.7));
     padding: 60px 0;
     overflow: hidden;
+    height: auto;
   }
 }
 /* ================upcoming events==================== */
