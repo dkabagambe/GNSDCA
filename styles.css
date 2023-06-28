@@ -287,13 +287,13 @@ styling for the home page starts from here */
   display: grid;
   place-items: center;
   padding: 10px;
-  font-family: serif;
+  font-family: cormorant;
 }
 .more p {
   font-size: 20px;
   color: #444444;
   font-family: garamond;
-  line-height: 1.7;
+  line-height: 1.5;
   margin: auto;
 }
 /* CSS for About Us section starts here */
