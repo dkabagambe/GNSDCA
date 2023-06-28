@@ -538,10 +538,9 @@ styling for the home page starts from here */
   padding: 5px;
 }
 #focus {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
   background: linear-gradient(
     rgba(215, 215, 212, 0.3),
     rgba(215, 215, 212, 0.5)
@@ -554,7 +553,6 @@ styling for the home page starts from here */
   color: #000;
   display: grid;
   place-items: center;
-  margin: 20px 10px;
   font-family: serif;
 }
 
@@ -564,11 +562,8 @@ styling for the home page starts from here */
   box-sizing: border-box;
   display: grid;
   place-items: center;
-  gap: 10px;
   border-radius: 10px;
   text-align: center;
-  margin: 10px;
-  /* box-shadow: 0 0 0 2px hwb(115 2% 45%); */
 }
 #focus .focus-area img {
   width: 70%;
@@ -586,6 +581,10 @@ styling for the home page starts from here */
 }
 
 @media (max-width: 768px) {
+  #focus {
+    align-content: center;
+    grid-template-columns: repeat(1, 1fr);
+  }
   .focus-area {
     flex-basis: 100%;
   }
