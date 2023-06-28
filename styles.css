@@ -195,12 +195,13 @@ styling for the home page starts from here */
 }
 
 .slide-caption p {
-  font-size: 2.1rem;
+  font-size: 1.9rem;
   color: #fff;
   line-height: 3;
   font-weight: 600;
   margin-top: 10%;
-  font-family: dosis;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 .swiper-pagination {
@@ -239,7 +240,6 @@ styling for the home page starts from here */
     font-size: 1rem;
     line-height: 2;
     font-weight: 500;
-    font-family: dosis;
     margin-bottom: 20%;
   }
 }
@@ -257,7 +257,6 @@ styling for the home page starts from here */
     font-size: 1.3rem;
     line-height: 2;
     font-weight: 550;
-    font-family: dosis;
   }
 }
 
@@ -441,7 +440,7 @@ styling for the home page starts from here */
 }
 
 .faq .faq-list a.collapsed:hover {
-  color: #1977cc;
+  color: #000;
 }
 
 .faq .faq-list a.collapsed .icon-show {
