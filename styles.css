@@ -522,6 +522,7 @@ styling for the home page starts from here */
 #upcomingEvents .card {
   height: 100%;
   background-color: #f5f5ef;
+  margin: 20px;
 }
 #upcomingEvents .card-text {
   font-size: 20px;
