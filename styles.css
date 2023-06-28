@@ -301,7 +301,29 @@ styling for the home page starts from here */
     width: 100%;
   }
 }
-
+.more {
+  padding: 20px 10px;
+  height: auto;
+  width: 100%;
+  background-color: #f5f5ef;
+}
+.more h3 {
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: 600;
+  color: #333;
+  display: grid;
+  place-items: center;
+  padding: 10px;
+  font-family: serif;
+}
+.more p {
+  font-size: 20px;
+  color: #444444;
+  font-family: garamond;
+  line-height: 1.7;
+  margin: auto;
+}
 /* CSS for About Us section starts here */
 .about {
   width: 100%;
