@@ -642,7 +642,7 @@ styling for the home page starts from here */
 
 .footer-column h4 {
   margin-bottom: 20px;
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-family: garamond;
   font-weight: 600;
   text-align: center;
@@ -676,11 +676,12 @@ styling for the home page starts from here */
 }
 p.footer-copyright {
   text-align: center;
-  color: snow;
+  color: #fafafa;
   font-size: 18px;
   font-weight: 500;
   margin: 15px;
-  font-family: dosis;
+  margin: 5px 3px 50px 5px;
+  font-family: cormorant;
   letter-spacing: 1.2px;
 }
 /* this section styling starts from here */
@@ -1718,7 +1719,7 @@ body.rtl #qlwapp .qlwapp-box .qlwapp-contact {
   place-items: center;
   padding: 20px 10px;
   font-family: serif;
-  font-size: 2rem;
+  font-size: 1.7rem;
 }
 
 #contact .col-md-4 {
