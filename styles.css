@@ -70,7 +70,7 @@ ul li a {
 ul li a:hover {
   color: #2507b3;
   transition: 0.3s ease;
-  border-bottom-color: #8eb273;
+  border-bottom-color: #f5f5ef;
 }
 
 .header-hamburger-icon {
