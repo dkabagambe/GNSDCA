@@ -2003,7 +2003,7 @@ body.rtl #qlwapp .qlwapp-box .qlwapp-contact {
   border: none;
   padding: 10px;
   padding-right: 20px;
-  background-color: rgb(143, 143, 200);
+  background-color: #fafafa;
   border-radius: 10px;
   width: 400px;
   height: 45px;
@@ -2014,19 +2014,19 @@ body.rtl #qlwapp .qlwapp-box .qlwapp-contact {
 }
 
 .info_contact form input::-webkit-input-placeholder {
-  color: #ffffff;
+  color: #454545;
 }
 
 .info_contact form input:-ms-input-placeholder {
-  color: #ffffff;
+  color: #454545;
 }
 
 .info_contact form input::-ms-input-placeholder {
-  color: #ffffff;
+  color: #454545;
 }
 
 .info_contact form input::placeholder {
-  color: #ffffff;
+  color: #454545;
 }
 
 .info_contact form button {
