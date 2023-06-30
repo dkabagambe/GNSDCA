@@ -1,12 +1,18 @@
-@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Noto+Serif&display=swap");
+@font-face {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+}
+
 * {
   margin: 0;
   padding: 0;
-  /* font-family: "Cormorant Garamond", serif; */
-  font-family: "Noto Serif", serif;
+  font-family: "Lato", sans-serif;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+  font-family: lato;
 }
 /* to avoid horizontal scroll,you must set the position relative,height 100% ,and overflow-x: hidden; inorder to work */
 html,
@@ -32,7 +38,7 @@ body {
   padding: 2rem 0;
 }
 p {
-  font-family: "Cormorant Garamond", serif;
+  font-family: "Lato", sans-serif;
   font-size: 20px;
 }
 .navigation .logo {
@@ -292,7 +298,7 @@ styling for the home page starts from here */
 .more p {
   font-size: 20px;
   color: #1f1f1f;
-  font-family: garamond;
+  font-family: "Lato", sans-serif;
   line-height: 1.5;
   margin: auto;
 }
@@ -393,7 +399,7 @@ styling for the home page starts from here */
 .faq .faq-list a {
   display: block;
   position: relative;
-  font-family: dosis;
+  font-family: lato;
   font-size: 20px;
   line-height: 20px;
   font-weight: 500;
@@ -527,7 +533,7 @@ styling for the home page starts from here */
 #upcomingEvents .card-text {
   font-size: 20px;
   color: #454545;
-  font-family: garamond;
+  font-family: "Lato", sans-serif;
 }
 
 /* ================focus area styles========== */
@@ -603,7 +609,7 @@ styling for the home page starts from here */
     font-weight: 500;
     font-size: 1.5rem;
     padding: 10px;
-    font-family: dosis;
+    font-family: lato;
     color: #222;
     align-items: center;
   }
@@ -643,7 +649,7 @@ styling for the home page starts from here */
 .footer-column h4 {
   margin-bottom: 20px;
   font-size: 1.8rem;
-  font-family: garamond;
+  font-family: "Lato", sans-serif;
   font-weight: 600;
   text-align: center;
   color: #757373;
@@ -722,7 +728,7 @@ p.footer-copyright {
   line-height: 1.5;
   margin-bottom: 10px;
   font-size: 20px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: "lato", sans-serif;
   font-weight: normal;
   align-self: center;
   justify-self: center;
@@ -739,7 +745,7 @@ p.footer-copyright {
   margin-bottom: 5px;
   margin-bottom: 10px;
   font-size: 20px;
-  font-family: garamond;
+  font-family: "Lato", sans-serif;
   font-weight: normal;
 }
 
@@ -1718,7 +1724,7 @@ body.rtl #qlwapp .qlwapp-box .qlwapp-contact {
   display: grid;
   place-items: center;
   padding: 20px 10px;
-  font-family: serif;
+  font-family: lato;
   font-size: 1.7rem;
 }
 #contacts h3 {
@@ -1728,7 +1734,7 @@ body.rtl #qlwapp .qlwapp-box .qlwapp-contact {
   font-size: 1.5rem;
   text-align: center;
   color: #000000 !important;
-  font-family: "Times New Roman", Times, serif;
+  font-family: "lato", Times, serif;
 }
 
 #contact .col-md-4 {
@@ -1785,7 +1791,7 @@ body.rtl #qlwapp .qlwapp-box .qlwapp-contact {
   cursor: pointer;
   font-weight: 800;
   font-size: 20px;
-  font-family: cormorant;
+  font-family: lato;
 }
 
 #contact .contact-form input[type="submit"]:hover {
@@ -1795,7 +1801,7 @@ body.rtl #qlwapp .qlwapp-box .qlwapp-contact {
   font-weight: 700;
   color: #303030;
   margin-bottom: 5px;
-  font-family: cormorant;
+  font-family: lato;
   font-size: 18px;
 }
 #contact h3 {
@@ -1803,7 +1809,7 @@ body.rtl #qlwapp .qlwapp-box .qlwapp-contact {
   color: #3807f9;
   margin-top: 20px;
   font-size: 20px;
-  font-family: garamond;
+  font-family: "Lato", sans-serif;
   font-weight: 650;
 }
 
@@ -1859,7 +1865,7 @@ body.rtl #qlwapp .qlwapp-box .qlwapp-contact {
   display: grid;
   place-items: center;
   padding: 20px 10px;
-  font-family: serif;
+  font-family: lato;
 }
 .team-member {
   text-align: center;
@@ -1889,7 +1895,7 @@ body.rtl #qlwapp .qlwapp-box .qlwapp-contact {
 }
 .team-member h4 {
   margin: 10px auto;
-  font-family: "Times New Roman", Times, serif;
+  font-family: "lato", serif;
   color: #333;
   font-weight: 500;
 }
@@ -1903,7 +1909,7 @@ body.rtl #qlwapp .qlwapp-box .qlwapp-contact {
   place-items: center;
   padding: 20px 10px;
   font-size: 2rem;
-  font-family: serif;
+  font-family: lato;
 }
 #gallery.gallery-container {
   max-width: 100%;
