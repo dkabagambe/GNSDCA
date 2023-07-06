@@ -662,6 +662,38 @@ styling for the home page starts from here */
   font-family: cormorant;
   color: #f1f1f1;
 }
+
+.footer-column .email-icon {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 2.5rem;
+  align-self: center;
+  font-family: cormorant;
+  color: #a39f9e;
+  /* Add any other styling properties as needed */
+}
+@keyframes openEnvelope {
+  0% {
+    transform: scaleY(0);
+  }
+  50% {
+    transform: scaleY(1.2);
+  }
+  100% {
+    transform: scaleY(1);
+  }
+}
+
+.email-icon {
+  display: inline-block;
+  position: relative;
+}
+
+.opening-envelope {
+  animation: openEnvelope 3s ease-in-out forwards;
+  transform-origin: bottom;
+}
+
 @media (min-width: 1024px) {
   .footer-content {
     display: grid;
