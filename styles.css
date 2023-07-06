@@ -677,7 +677,7 @@ styling for the home page starts from here */
     transform: scaleY(0);
   }
   50% {
-    transform: scaleY(1.2);
+    transform: scaleY(1);
   }
   100% {
     transform: scaleY(1);
