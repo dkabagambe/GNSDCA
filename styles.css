@@ -2094,3 +2094,109 @@ body.rtl #qlwapp .qlwapp-box .qlwapp-contact {
     align-self: center;
   }
 }
+/* membership styles  */
+#membership {
+  margin: 20px;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  overflow: auto;
+  margin-top: 100px;
+  background-color: #f5f5f5;
+}
+
+#membership h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  text-align: center;
+  color: #1e1e1e;
+  text-transform: capitalize;
+  font-family: serif;
+  font-weight: bold;
+}
+.form-container {
+  width: auto;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+  display: block;
+  margin-bottom: 25px;
+  font-size: 18px;
+  font-weight: 520;
+  color: #333333;
+}
+
+form input::placeholder {
+  color: #999;
+  font-size: 1rem;
+  font-family: dosis;
+  padding-inline-start: 5px;
+}
+
+form input,
+form select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  font-family: garamond;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #222;
+}
+
+form button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+form button:hover {
+  background-color: #45a049;
+}
+
+form label.checkbox-label {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+form label.checkbox-label input[type="checkbox"] {
+  display: inline-block;
+  text-align: center;
+  margin-right: 5px;
+  height: auto;
+  width: 100%;
+}
+
+.checkbox-group {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.checkbox-group input[type="checkbox"] {
+  margin-right: 5px;
+  vertical-align: middle;
+  display: flex;
+}
+
+.checkbox-group label {
+  display: block;
+  margin-top: 20px;
+  margin-left: 10px;
+  font-family: "Lato";
+}

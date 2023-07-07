@@ -10,7 +10,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.5.0/css/bootstrap.min.css"
     />
-    <title>Focus |Global North and South Movement</title>
+    <title>Movement | Global North and South Movement</title>
     <link
       rel="stylesheet"
       href="https://unpkg.com/swiper/swiper-bundle.min.css"
@@ -99,6 +99,7 @@
           <li><a href="index.html">Home</a></li>
           <li><a href="about.html">About us</a></li>
           <li><a href="upcoming events.html">Upcoming Events </a></li>
+          <li><a href="team.html">Team</a></li>
           <li><a href="focus.html">our focus</a></li>
           <li><a href="movement.html">Join Movement</a></li>
           <!-- <li><a href="#gallery">gallery</a></li> -->
@@ -114,57 +115,109 @@
 
     <!--end of header-->
     <!-- the about us section starts here -->
-    <section class="about">
+    <!-- <section class="about">
       <div>
         <img src="images/e.jpg" alt="About Image" />
       </div>
-    </section>
+    </section> -->
 
-    <!-- ====================focus areas starts from here========================= -->
-    <section id="foc">
-      <h3>Thematic Focus Area</h3>
-      <div id="focus">
-        <div class="focus-area">
-          <img src="images/focusareaphotos/Loss and Damage.jpg" alt="Image 1" />
-          <span class="focus-text">Loss and Damage/ Climate Finance</span>
-        </div>
+    <!-- =---the membership starts from here---= -->
+    <section id="membership">
+      <h2>Join Movement</h2>
+      <div class="form-container">
+        <form>
+          <label for="name">Applicant's Name:</label>
+          <input type="text" id="name" placeholder="Enter your name" required />
 
-        <div class="focus-area">
-          <img
-            src="images/focusareaphotos/Just Energy Transition.jpg"
-            alt="Image 2"
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            id="email"
+            placeholder="Enter your email"
+            required
           />
-          <span class="focus-text">Just Energy Transition</span>
-        </div>
 
-        <div class="focus-area">
-          <img
-            src="images/focusareaphotos/Meaningful and inclusive environmental governance.jpg"
-            alt="Image 3"
-          />
-          <span class="focus-text">Meaningful and Inclusive Governance</span>
-        </div>
+          <label for="thematic-focus"><h3>Preferred thematic focus:</h3></label>
+          <br />
+          <div id="thematic-focus">
+            <div class="checkbox-group">
+              <input
+                type="checkbox"
+                name="focus"
+                value="Loss and Damage/Climate Finance"
+                id="focus1"
+              />
+              <label for="focus1">Loss and Damage/Climate Finance</label>
+            </div>
+            <div class="checkbox-group">
+              <input
+                type="checkbox"
+                name="focus"
+                value="Just Energy Transition"
+                id="focus2"
+              />
+              <label for="focus2">Just Energy Transition</label>
+            </div>
+            <div class="checkbox-group">
+              <input
+                type="checkbox"
+                name="focus"
+                value="Meaningful and Inclusive Governance"
+                id="focus3"
+              />
+              <label for="focus3">Meaningful and Inclusive Governance</label>
+            </div>
+            <div class="checkbox-group">
+              <input
+                type="checkbox"
+                name="focus"
+                value="Climate Migration"
+                id="focus4"
+              />
+              <label for="focus4">Climate Migration</label>
+            </div>
+            <div class="checkbox-group">
+              <input
+                type="checkbox"
+                name="focus"
+                value="Nature/Nature-based Solutions"
+                id="focus5"
+              />
+              <label for="focus5">Nature/Nature-based Solutions</label>
+            </div>
+          </div>
 
-        <div class="focus-area">
-          <img
-            src="images/focusareaphotos/Climate migration.jpg"
-            alt="Image 4"
+          <label for="Region">Region:</label>
+          <select id="Region" required>
+            <option value="" disabled selected>Select an option</option>
+            <option value="Africa">Africa</option>
+            <option value="Europe">Europe</option>
+            <option value="North America">North America</option>
+            <option value="Asia">Asia</option>
+            <option value="Pacific and Oceania">Pacific and Oceania</option>
+            <option value="Latin America">Latin America</option>
+          </select>
+          <label for="country">Country of Operation:</label>
+          <input
+            type="text"
+            id="country"
+            placeholder="Enter your country"
+            required
           />
-          <span class="focus-text">Climate Migration</span>
-        </div>
 
-        <div class="focus-area">
-          <img
-            src="images/focusareaphotos/Nature_Nature based Solutions.jpg"
-            alt="Image 5"
-            style="height: 200px"
-          />
-          <span class="focus-text">Nature/ Nature-based Solutions</span>
-        </div>
+          <div class="checkbox-group">
+            <input type="checkbox" name="agree" />
+            <label for="agree">
+              I agree to confine all confidential information.</label
+            >
+          </div>
+
+          <button type="submit">Submit</button>
+        </form>
       </div>
     </section>
 
-    <!-- ====================this section ends here========================= -->
+    <!-- end of membership -->
 
     <!-- ==========whatsapp============== -->
     <div
@@ -194,12 +247,8 @@
       <div class="container">
         <div class="footer-content">
           <div class="footer-column">
-            <h4>Contact</h4>
+            <h4>Contacts</h4>
             <p>Email: info@gnsm.com</p>
-            <span class="email-icon">
-              <i class="fas fa-envelope opening-envelope"></i>
-            </span>
-
             <!-- <p>Phone: +256 726 055764</p> -->
             <!-- <p>P.O Box 335 Kampala Uganda!</p>
             <p>Plot 2 Lugard Road</p>
